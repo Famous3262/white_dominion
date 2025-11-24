@@ -3,8 +3,9 @@ import { supabase } from '@/lib/supabase/client';
 
 export async function GET(
     req: NextRequest,
-    { params }: { params: { code: string } }
+    context: any
 ) {
+    const { params } = context;
     const code = params.code;
 
     if (!code) {

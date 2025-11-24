@@ -18,7 +18,7 @@ export interface Design {
     video_url?: string;
     visibility: 'private' | 'shared' | 'public';
     created_at: string;
-    specs?: Record<string, any>; // AI generated specs
+    specs?: Record<string, string | number>; // AI generated specs
 }
 
 export interface Order {

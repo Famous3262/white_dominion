@@ -4,7 +4,7 @@ const apiKey = process.env.GEMINI_API_KEY!;
 const genAI = new GoogleGenerativeAI(apiKey);
 
 export async function generateFashionDesign(
-    measurements: Record<string, any>,
+    measurements: Record<string, string | number>,
     preferences: string[],
     style: string
 ) {

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Button } from '@/components/ui/button'; // We'll create a basic button later or use standard HTML for now
 
 export function Navbar() {
     return (
