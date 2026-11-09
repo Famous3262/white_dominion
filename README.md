@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# White Dominion
 
-## Getting Started
+An early-stage repository for exploring an AI-assisted fashion and garment-design product. The product concept focuses on helping people explore clothing ideas and personalized fashion experiences.
 
-First, run the development server:
+> **Project status:** Early-stage development. This repository currently contains a Next.js application scaffold and supporting dependencies. The full product experience is not represented as complete or production-ready.
+
+## Intended direction
+
+The broader concept is to explore ways AI could support:
+
+- Personalized fashion and style exploration
+- Digital garment concepts and design workflows
+- A more accessible connection between customers and fashion production
+
+These are product goals, not a claim that every capability is implemented in the current codebase.
+
+## Current technology
+
+Based on the project dependencies:
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- Supabase JavaScript client
+- Google Generative AI SDK
+- Framer Motion
+
+## Run locally
+
+### Requirements
+
+- Node.js (LTS recommended)
+- npm
+
+### Setup
 
 ```bash
+git clone https://github.com/Famous3262/white_dominion.git
+cd white_dominion
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev    # Start the development server
+npm run build  # Build the application
+npm run start  # Start the production server
+npm run lint   # Run ESLint
+```
 
-## Learn More
+## Configuration
 
-To learn more about Next.js, take a look at the following resources:
+If Supabase or Google AI services are enabled in a local implementation, configure their credentials using environment variables. Keep secrets in a local `.env.local` file and never commit API keys or service-role credentials.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[View source code](https://github.com/Famous3262/white_dominion)
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Famous Bernard** — [@Famous3262](https://github.com/Famous3262)
